@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p,h1,h2,h3,h4,h5,h6,ul,ol{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+body {
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.head_brands {
+    z-index: 50;
+}
+.head_links {
+    padding:15px 0;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom:2px solid #595959;
+    flex-wrap: wrap;
+}
+.head_links a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color:#ff3448;
+    font-size: 14px;
+    margin:0 24px;
+}
+.head_links a img {
+   margin-right: 5px; 
+}
+nav, .head {
+    background: #212121;
+}
+.last_link {
+    padding-right: 27px;
+    border-right:3px solid #555555;
+}
+.head_link {
+    margin-left:0px !important;
+}
+.head_brands {
+   padding:14px 0 21px; 
+}
+.number a {
+ font-size: 20px;
+ color:#fff;
+ font-weight: 700;   
+}
+.number p {
+  font-size: 14px;
+  color:#a2a2a2;  
+  margin-top:20px;
+}
+.number a img {
+    margin-right: 27px;
+}
+.number {
+    padding-right:40px;
+    text-align: right;
+}
+.wish_list,
+.compare,
+.cart {
+    border-left:2px solid #555555;
+}
+.wish_list,
+.compare,
+.cart {
+  padding:0 25px; 
+  text-align: center; 
+}
+.wish_list p,
+.compare p ,
+.cart p {
+  font-size: 15px;
+  color:#fff;  
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 40px;
+}
+.navbar-items {
+  background: #030303;  
+  padding:10px 0 15px;
+}
+
+.navbar-items ul li {
+   padding:14px 19px 0; 
+}
+.navbar-items li a {
+  font-size: 15px;
+  color:#fff !important;
+  text-transform: uppercase;  
+}
+.row {
+    margin:0 !important;
+    padding:0 !important; 
+}
+
+.services .col-xl-6 {
+    transition: 0.5s;
+}
+.services .col-xl-6.first_block{
+    background: #303030;
+    padding:10px 0 65px;
+    width: 50%;
+    height: 400px;
+}
+.services .main_photo {
+    width: 30% !important;
+}
+.col-xl-6.first_block h2,
+.col-xl-6.second_block h2 {
+    font-size: 35px;
+    color:#fff;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.col-xl-6.first_block p,
+.col-xl-6.second_block p {
+   font-size: 20px; 
+   color:#979696;
+}
+.block-text {
+    margin-left: 55px;
+}
+.second_block {
+    background: #1c1c1c;
+    width: 50%;
+    height: 400px;
+}
+.services .col-xl-6:hover {
+    cursor: pointer;
+    
+}
+.title {
+   font-size: 35px;
+   font-weight: 700;
+   color:#fff; 
+   text-align: center;
+   position: relative;
+}
+.title:after {
+    content:'';
+    position: absolute;
+    width: 180px;
+    height: 6px;
+    background: #9c1c28;
+    left:50%;
+    transform: translateX(-50%);
+    top:60px;
+}
+.products {
+    padding:85px 0 120px;
+}
+.slider {
+    margin:90px auto 0;
+}
+.slick-dots {
+    display: flex;
+    justify-content: center;
+}
+.slick-dots li button {
+    display: none;
+}
+.slick-dots li {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border:1px solid #000;
+    margin:20px 5px 0;
+}
+.slick-dots li.slick-active {
+    background: #000;
+}
+.item {
+    position: relative;
+    width: 250px;
+    
+}
+.item-text {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(49, 49, 148, 0.6);
+    opacity:0;
+    transition: 0.7s;
+}
+.item-text a {
+  font-size: 26px;
+  color:#fff !important; 
+  z-index: 2; 
+  opacity:1;
+}
+.item:hover .item-text {
+    opacity:1;
+}
+.prices {
+    background: url(../images/prices-bg_02.png) no-repeat center center / cover;
+    padding:105px 0 105px;
+}
+.prices .col-xl-4 {
+    margin-top: 80px;
+}
+.prices .col-xl-4 h3 {
+  font-size: 82px;
+  color:#fff;  
+  font-weight: 700;
+}
+.prices .col-xl-4 h4 {
+   font-size: 40px;
+   font-weight: 700;
+   color:#fff;
+   margin-bottom: 30px; 
+}
+.prices .col-xl-4 p {
+   font-size: 15px;
+   color:#fff; 
+   margin-bottom: 28px;
+}
+.prices .col-xl-4 .buy {
+   width: 190px;
+   height: 40px; 
+   border-radius: 16px;
+   border:none;
+   outline:none;
+   background: #9c1c28;
+   color:#fff;
+   font-size: 20px;
+   font-weight: 700;
+}
+.quick {
+ background-color: #000;  
+ padding: 110px 0 87px;
+ border-bottom:2px solid #555555;
+}
+.quick .col-xl-3 h3 {
+  font-size: 25px;
+  color:#fff;  
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 45px;
+}
+.quick .col-xl-3 h3:after {
+    content: '';
+    position: absolute;
+    left:0;
+    top:40px;
+    width: 90px;
+    height: 6px;
+    background-color: #dd2d3e;
+}
+.quick .col-xl-3 a {
+    font-size: 15px;
+    font-weight: 700;
+    color:#dd2d3e;
+    margin-bottom: 25px;
+}
+.quick .col-xl-3 p {
+  font-size: 15px;
+  color:#887979;  
+  max-width: 320px;
+  margin-bottom: 15px;
+  
+}
+.quick .col-xl-3 input {
+    max-width: 320px;
+    background: #282828;
+    height: 35px;
+    outline:none;
+    border:none;
+    margin-bottom: 35px;
+    padding-left: 15px;
+    color:#fff;
+}
+.quick .col-xl-3 form button {
+    width: 140px;
+    height: 38px;
+    border-radius: 16px;
+    color:#fff;
+    font-weight: 700;
+    font-size: 20px;
+    background: #9c1c28;
+    border:none;
+    outline:none;
+    text-transform: uppercase;
+}
+.quick .social_items {
+    margin-top: 100px;
+}
+.quick .social_items .fa {
+    font-size: 20px;
+    color:#fff;
+    margin-right: 20px;
+}
+footer {
+    background-color: #000000;
+    padding:82px 0 100px;
+    border-bottom:2px solid #555555;
+}
+footer .col-xl-4 h3 {
+  font-size: 25px;
+  color:#fff;  
+  font-weight: 700;
+  margin-bottom: 55px;
+}
+footer .col-xl-4 h3:after {
+    content: '';
+    position: absolute;
+    left:18px;
+    top:40px;
+    width: 90px;
+    height: 6px;
+    background-color: #dd2d3e;
+}
+footer .col-xl-4 p {
+ font-size: 15px;
+ color:#fff; 
+ padding:0 10px;  
+}
+footer .col-xl-4 a {
+  font-size: 15px;
+  color:#7c6e6e;  
+  display: inline-block;
+  margin-bottom: 13px;
+}
+footer .col-xl-4 .fa {
+    margin-right: 17px;
+    color:#9c1c28;
+}
+.copy {
+  font-size: 15px;
+  color:#887979; 
+  padding:45px 0 75px; 
+  background-color: #000000;
+  text-align: center;
+}
+.copy span {
+    color:#fff;
+    font-weight: 700;
+}
